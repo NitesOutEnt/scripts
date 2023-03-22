@@ -1,4 +1,4 @@
-# Scripts :heart: :heart:
+# Our Scripts :heart::heart:
 
 #### generate_emails.js
 accesses firebase's firestore database, goes to our waitlist collection database, and compiles an excel sheet of each email that has joined.
