@@ -7,4 +7,4 @@ accesses firebase's firestore database, goes to our waitlist collection database
 reads each row of column A of an excel sheet and sends a customizable message to each email using gmail.
 
 ---
-##### Run all scripts in file location terminal with "node my_script.js"
+##### Run all scripts in file location terminal with "node script_name.js"
