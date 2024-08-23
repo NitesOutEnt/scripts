@@ -1,9 +1,11 @@
-const admin = require('firebase-admin');
 const XLSX = require('xlsx');
-const serviceAccount = require('./nitesout-website-firebase-adminsdk-f3rw3-f66b62e1a1.json'); // replace with your own service account key file
+var admin = require("firebase-admin");
+
+var serviceAccount = require("./nitesout-website-firebase-adminsdk-f3rw3-59b8105697.json");
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://nitesout-website-default-rtdb.firebaseio.com"
 });
 
 const db = admin.firestore();
